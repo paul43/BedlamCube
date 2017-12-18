@@ -56,6 +56,11 @@
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="..\..\..\..\..\source\repos\BedlamCube\BedlamCube\BedlamCube\Arrays.fs" />
+    <Compile Include="..\..\..\..\..\source\repos\BedlamCube\BedlamCube\BedlamCube\Pieces.fs" />
+    <Compile Include="..\..\..\..\..\source\repos\BedlamCube\BedlamCube\BedlamCube\Game.fs" />
+    <Compile Include="..\..\..\..\..\source\repos\BedlamCube\BedlamCube\BedlamCube\Strategies.fs" />
+    <Compile Include="..\..\..\..\..\source\repos\BedlamCube\BedlamCube\BedlamCube\Version2.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
     <Content Include="packages.config" />
