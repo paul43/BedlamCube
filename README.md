@@ -10,3 +10,7 @@ The code is a bit of a mess as remenants of a couple of different strategies per
 
 * Multithreading -- It's an essentially sequential search so it's not clear this would work
 * GUI -- It would be nice to pop up animated cubes as we find solutions. Should be easily adapted from TomasP's blog post.
+
+#### Potential Gotchas
+
+* Crashes with stack overflow in Debug mode due to deep recursion. Have to compile in release mode for optimised tail calls.
